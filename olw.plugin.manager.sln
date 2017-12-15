@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "olw.plugin.manager", "olw.plugin.manager\olw.plugin.manager.csproj", "{D922AD4A-E661-4A82-AD13-DCD85156E9AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdParty", "3rdParty", "{6F5D1215-6F0B-4BEB-BC4F-00A61379CDA7}"
+	ProjectSection(SolutionItems) = preProject
+		3rdParty\OpenLiveWriter.Api.dll = 3rdParty\OpenLiveWriter.Api.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{E15AA2CA-2199-4CB9-B394-DEE1F89FBB17}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6111FF42-806C-45B8-A4CB-F7B1CDA67FFF}"
+	ProjectSection(SolutionItems) = preProject
+		.github\screenshot1.png = .github\screenshot1.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D922AD4A-E661-4A82-AD13-DCD85156E9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D922AD4A-E661-4A82-AD13-DCD85156E9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D922AD4A-E661-4A82-AD13-DCD85156E9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D922AD4A-E661-4A82-AD13-DCD85156E9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6111FF42-806C-45B8-A4CB-F7B1CDA67FFF} = {E15AA2CA-2199-4CB9-B394-DEE1F89FBB17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7C5C7FC-E5BB-4C8A-AA65-5DFDFE072B71}
+	EndGlobalSection
+EndGlobal
