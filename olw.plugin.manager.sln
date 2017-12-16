@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6111
 		.github\screenshot1.png = .github\screenshot1.png
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "olw.manager.plugin", "olw.manager.plugin\olw.manager.plugin.csproj", "{7A9B8A78-0644-43AF-8653-75D567781B9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{D922AD4A-E661-4A82-AD13-DCD85156E9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D922AD4A-E661-4A82-AD13-DCD85156E9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D922AD4A-E661-4A82-AD13-DCD85156E9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9B8A78-0644-43AF-8653-75D567781B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9B8A78-0644-43AF-8653-75D567781B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9B8A78-0644-43AF-8653-75D567781B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9B8A78-0644-43AF-8653-75D567781B9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

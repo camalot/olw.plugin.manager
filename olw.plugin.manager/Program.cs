@@ -22,6 +22,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using olw.manager.plugin;
 
 namespace olw.plugin.manager {
 	static class Program {
